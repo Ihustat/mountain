@@ -18,7 +18,9 @@ li{
     list-style: none;
 }
 body{
-   
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
     font-display:swap ;
     overflow-x: hidden;
     position: relative;
@@ -43,4 +45,32 @@ button{
     background-color: transparent;
     border: none;
     outline: none;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    color: $title;
+    position: relative;
+    padding-top: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    &::before{
+        content: "";
+        position: absolute;
+        background-image: url(../images/wave.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        top: 0;
+       left: 50%;
+       transform: translateX(-50%);
+        width: 82px;
+        height: 7px;
+    }
 }
