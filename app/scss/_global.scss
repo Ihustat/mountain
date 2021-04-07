@@ -21,6 +21,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 26px;
+    color: $text;
     font-display:swap ;
     overflow-x: hidden;
     position: relative;
@@ -45,6 +46,7 @@ button{
     background-color: transparent;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 .container{
     max-width: 1170px;
@@ -55,6 +57,7 @@ button{
     font-weight: 700;
     font-size: 30px;
     line-height: 42px;
+    margin-bottom: 70px;
     color: $title;
     position: relative;
     padding-top: 35px;
